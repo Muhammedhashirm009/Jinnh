@@ -3,11 +3,6 @@
 
   <p align="center">
 
-<a href="#"><img title="HASHIR BOT" src="https://img.shields.io/badge/Jimbrootan%F0%9F%A7%9E%E2%80%8D%E2%99%82%EF%B8%8F-blueviolet?&style=for-the-badge"></a>
-</p>
-  <p align="center">
-<a href="https://github.com/Muhammedhashirm009"><img title="Author" src="https://img.shields.io/badge/Author-Mikhaiel-Offical/Jimbrootan?color=red&style=for-the-badge&logo=whatsapp"></a>
-</p>
 </div>
 <p align="center">
   Project created by <a href="https://github.com/Muhammedhashirm009">Muhammed Hashir</a> to make it public
