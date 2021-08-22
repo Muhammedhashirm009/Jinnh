@@ -18,16 +18,16 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Creater Mikhaiel*
-*Bgm updation💘*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Creater Muhammed Hashir*
+*SYSTEM UPDATING*
 
-*Owner number wa.me/919544846609*
+*Owner number wa.me/919037072660*
 
-*githublink       https://github.com/Mikhaiel/Jinnh*
+*githublink       https://github.com/Muhammedhashirm009/HASHIRBOT*
 
-*audio commads    https://github.com/Mikhaiel/Jinnh/tree/master/uploads*
+*audio commads    https://github.com/Muhammedhashirm009/HASHIRBOT/tree/master/uploads*
 
-*sticker commads  https://github.com/Mikhaiel/Jinnh/tree/master/stickers*
+*sticker commads  https://github.com/Muhammedhashirm009/HASHIRBOT/tree/master/stickers*
 `}) 
 
 }));
