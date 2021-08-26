@@ -20,15 +20,15 @@ var ggg = Buffer.from(clh.cd, 'base64')
 var ddd = ggg.toString('utf-8')
 clh.pay = ddd
 var desc_msg = ''
-if (Config.LANG == 'TR') desc_msg = 'Sınırsız erişime sahip textmaker araçlarını gösterir.'
+if (Config.LANG == 'TR') desc_msg = 'S谋n谋rs谋z eri艧ime sahip textmaker ara莽lar谋n谋 g枚sterir.'
 if (Config.LANG == 'EN') desc_msg = 'Shows text to image tools with unlimited access.'
-if (Config.LANG == 'RU') desc_msg = 'Показывает инструменты для создания текстов с неограниченным доступом.'
-if (Config.LANG == 'AZ') desc_msg = 'Sınırsız girişi olan textmaker alətləri göstərir.'
+if (Config.LANG == 'RU') desc_msg = '袩芯泻邪蟹褘胁邪械褌 懈薪褋褌褉褍屑械薪褌褘 写谢褟 褋芯蟹写邪薪懈褟 褌械泻褋褌芯胁 褋 薪械芯谐褉邪薪懈褔械薪薪褘屑 写芯褋褌褍锌芯屑.'
+if (Config.LANG == 'AZ') desc_msg = 'S谋n谋rs谋z giri艧i olan textmaker al蓹tl蓹ri g枚st蓹rir.'
 if (Config.LANG == 'PT') desc_msg = 'Mostra ferramentas textmaker com acesso ilimitado.'
 if (Config.LANG == 'ID') desc_msg = 'Menampilkan alat pembuat teks dengan akses tak terbatas.'
-if (Config.LANG == 'ML') desc_msg = 'പരിധിയില്ലാത്ത ആക്സസ് ഉള്ള ടെക്സ്റ്റ് മേക്കർ ഉപകരണങ്ങൾ കാണിക്കുന്നു.'
-if (Config.LANG == 'HI') desc_msg = 'असीमित एक्सेस के साथ टेक्स्टमेकर टूल दिखाता है।'
-if (Config.LANG == 'ES') desc_msg = 'Muestra herramientas de creación de textos con acceso ilimitado.'
+if (Config.LANG == 'ML') desc_msg = '啻窗啻苦揣啻苦疮啻苦床嗟嵿床啻距搐嗟嵿搐 啻嗋磿嗟嵿锤啻膏祶 啻夃闯嗟嵿闯 啻熰祮啻曕祶啻膏祶啻编祶啻编祶 啻祰啻曕祶啻曕导 啻夃椽啻曕窗啻｀礄嗟嵿礄嗟� 啻曕淳啻｀纯啻曕祶啻曕祦啻ㄠ祶啻ㄠ祦.'
+if (Config.LANG == 'HI') desc_msg = '啶呧じ啷€啶た啶� 啶忇啷嵿じ啷囙じ 啶曕 啶膏ぞ啶� 啶熰啶曕啶膏啶熰ぎ啷囙啶� 啶熰啶� 啶︵た啶栢ぞ啶むぞ 啶灌啷�'
+if (Config.LANG == 'ES') desc_msg = 'Muestra herramientas de creaci贸n de textos con acceso ilimitado.'
 if (os.userInfo().homedir !== clh.pay) return;
 let wk = Config.WORKTYPE == 'public' ? false : true
 
@@ -63,34 +63,34 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
     var t28 = ''
     var t29 = ''
     if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
-        t1 = 'Şeytan Temalı Logo Yapar.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
-        t2 = 'Ayı İkonu İçeren Logo Yapar.' // https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html
-        t3 = 'Neon Efekti İçeren Logo Yapar.' // https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html
-        t4 = '2. Bir Neon Efekti İçeren Logo Yapar.' // https://textpro.me/neon-text-effect-online-879.html
-        t5 = 'Yıldırım Temalı Logo Yapar.' // https://textpro.me/thunder-text-effect-online-881.html
-        t6 = 'Joker Temalı Logo Yapar.' // https://textpro.me/create-logo-joker-online-934.html
-        t7 = 'Ninja Temalı Logo Yapar.' // https://textpro.me/create-ninja-logo-online-935.html
-        t8 = 'Parıltı Temalı Logo Yapar.' // https://textpro.me/advanced-glow-text-effect-873.html
-        t9 = 'Bokeh Efekti İçeren Logo Yapar.' // https://textpro.me/bokeh-text-effect-876.html
-        t10 = 'Kurt İkonu İçeren Logo Yapar.' // https://textpro.me/create-wolf-logo-galaxy-online-936.html
+        t1 = '艦eytan Temal谋 Logo Yapar.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
+        t2 = 'Ay谋 陌konu 陌莽eren Logo Yapar.' // https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html
+        t3 = 'Neon Efekti 陌莽eren Logo Yapar.' // https://textpro.me/create-a-futuristic-technology-neon-light-text-effect-1006.html
+        t4 = '2. Bir Neon Efekti 陌莽eren Logo Yapar.' // https://textpro.me/neon-text-effect-online-879.html
+        t5 = 'Y谋ld谋r谋m Temal谋 Logo Yapar.' // https://textpro.me/thunder-text-effect-online-881.html
+        t6 = 'Joker Temal谋 Logo Yapar.' // https://textpro.me/create-logo-joker-online-934.html
+        t7 = 'Ninja Temal谋 Logo Yapar.' // https://textpro.me/create-ninja-logo-online-935.html
+        t8 = 'Par谋lt谋 Temal谋 Logo Yapar.' // https://textpro.me/advanced-glow-text-effect-873.html
+        t9 = 'Bokeh Efekti 陌莽eren Logo Yapar.' // https://textpro.me/bokeh-text-effect-876.html
+        t10 = 'Kurt 陌konu 陌莽eren Logo Yapar.' // https://textpro.me/create-wolf-logo-galaxy-online-936.html
         t11 = 'Siyah Beyaz Marvel Logosu Yapar.' // https://textpro.me/create-logo-style-marvel-studios-online-971.html
         t12 = 'Renkli Marvel Logosu Yapar.' // https://textpro.me/create-logo-style-marvel-studios-ver-metal-972.html
         t13 = 'Avengers Logosu Yapar.' // https://textpro.me/create-3d-avengers-logo-online-974.html
-        t14 = 'Glitch Efekti İçeren Logo Yapar.' // https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html
-        t15 = 'Graffiti Temalı Logo Yapar.' // https://textpro.me/create-cool-wall-graffiti-text-effect-online-1009.html
-        t16 = '2. Bir Graffiti Temalı Logo Yapar.' // https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html
-        t17 = 'Aslan Temalı Logo Yapar.' // https://textpro.me/create-lion-logo-mascot-online-938.html
-        t18 = '3. Bir Neon Temalı Logo Yapar.' // https://textpro.me/neon-text-effect-online-963.html
-        t19 = 'Buz Temalı Logo Yapar.' // https://textpro.me/ice-cold-text-effect-862.html
-        t20 = 'Uzay Temalı Logo Yapar.' // https://textpro.me/create-space-3d-text-effect-online-985.html
-        t21 = 'Duman Efekti İçeren Logo Yapar.' // https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html
-        t22 = 'Naruto Temalı Logo Yapar.' // https://photooxy.com/manga-and-anime/make-naruto-banner-online-free-378.html
-        t23 = 'Glow Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/make-smoky-neon-glow-effect-343.html
-        t25 = 'Alev Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/realistic-flaming-text-effect-online-197.html
-        t26 = 'Harry Potter Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/create-harry-potter-text-on-horror-background-178.html
-        t27 = '4. Bir Neon Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html
-        t28 = 'Mezarlık Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/text-on-scary-cemetery-gate-172.html
-        t29 = 'Kupa Temalı Logo Yapar.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
+        t14 = 'Glitch Efekti 陌莽eren Logo Yapar.' // https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html
+        t15 = 'Graffiti Temal谋 Logo Yapar.' // https://textpro.me/create-cool-wall-graffiti-text-effect-online-1009.html
+        t16 = '2. Bir Graffiti Temal谋 Logo Yapar.' // https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html
+        t17 = 'Aslan Temal谋 Logo Yapar.' // https://textpro.me/create-lion-logo-mascot-online-938.html
+        t18 = '3. Bir Neon Temal谋 Logo Yapar.' // https://textpro.me/neon-text-effect-online-963.html
+        t19 = 'Buz Temal谋 Logo Yapar.' // https://textpro.me/ice-cold-text-effect-862.html
+        t20 = 'Uzay Temal谋 Logo Yapar.' // https://textpro.me/create-space-3d-text-effect-online-985.html
+        t21 = 'Duman Efekti 陌莽eren Logo Yapar.' // https://photooxy.com/other-design/create-an-easy-smoke-type-effect-390.html
+        t22 = 'Naruto Temal谋 Logo Yapar.' // https://photooxy.com/manga-and-anime/make-naruto-banner-online-free-378.html
+        t23 = 'Glow Temal谋 Logo Yapar.' // https://photooxy.com/logo-and-text-effects/make-smoky-neon-glow-effect-343.html
+        t25 = 'Alev Temal谋 Logo Yapar.' // https://photooxy.com/logo-and-text-effects/realistic-flaming-text-effect-online-197.html
+        t26 = 'Harry Potter Temal谋 Logo Yapar.' // https://photooxy.com/logo-and-text-effects/create-harry-potter-text-on-horror-background-178.html
+        t27 = '4. Bir Neon Temal谋 Logo Yapar.' // https://photooxy.com/logo-and-text-effects/illuminated-metallic-effect-177.html
+        t28 = 'Mezarl谋k Temal谋 Logo Yapar.' // https://photooxy.com/logo-and-text-effects/text-on-scary-cemetery-gate-172.html
+        t29 = 'Kupa Temal谋 Logo Yapar.' // https://photooxy.com/logo-and-text-effects/put-text-on-the-cup-387.html
     }
     else {
         t1 = 'Makes Devil Themed Logo.' // https://textpro.me/create-neon-devil-wings-text-effect-online-free-1014.html
@@ -126,13 +126,13 @@ Asena.addCommand({pattern: 'txtit$', fromMe: wk, desc: desc_msg}, (async (messag
     var command_cmd = ''
     var desc_cmd = ''
     if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
-        usage_cmd = '⌨️ *Örnek:* _'
-        command_cmd = '💻 *Komut:* '
-        desc_cmd = 'ℹ️ *Açıklama:* _'
+        usage_cmd = '鈱笍 *脰rnek:* _'
+        command_cmd = '馃捇 *Komut:* '
+        desc_cmd = '鈩癸笍 *A莽谋klama:* _'
     } else { 
-        usage_cmd = '*😜 Example:* '
-        command_cmd = '😈 *Command:* '
-        desc_cmd = '🥀 *Description:* '
+        usage_cmd = '*馃槣 Example:* '
+        command_cmd = '馃槇 *Command:* '
+        desc_cmd = '馃 *Description:* '
     }
     const msg = command_cmd + '```.devil``` \n' + t1 + '_\n' + usage_cmd + '.devil jinn\n\n' +
         command_cmd + '```.bear``` \n' + desc_cmd + t2 + '_\n' + usage_cmd + '.bear jinn\n\n' +
@@ -175,7 +175,7 @@ Asena.addCommand({pattern: 'devil ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/devil.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/devil.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/devil.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -194,7 +194,7 @@ Asena.addCommand({pattern: 'bear ?(.*)', fromMe: wk, dontAddCommandList: true}, 
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/bear.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/bear.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/bear.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -222,7 +222,7 @@ Asena.addCommand({pattern: 'wolf ?(.*)', fromMe: wk, dontAddCommandList: true}, 
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/wolf.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/wolf.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/wolf.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -241,7 +241,7 @@ Asena.addCommand({pattern: 'neon ?(.*)', fromMe: wk, dontAddCommandList: true}, 
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/neon.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/neon.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/neon.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -260,7 +260,7 @@ Asena.addCommand({pattern: '2neon ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/neon2.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/neon2.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/neon2.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -279,7 +279,7 @@ Asena.addCommand({pattern: 'light ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/li.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/li.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/li.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -298,7 +298,7 @@ Asena.addCommand({pattern: 'joker ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/joker.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/joker.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/joker.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -326,7 +326,7 @@ Asena.addCommand({pattern: 'ninja ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/ninja.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/ninja.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/ninja.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -345,7 +345,7 @@ Asena.addCommand({pattern: 'glitter ?(.*)', fromMe: wk, dontAddCommandList: true
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/tt.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/tt.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/tt.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -364,7 +364,7 @@ Asena.addCommand({pattern: 'bokeh ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/bkh.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/bkh.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/bkh.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -379,7 +379,7 @@ Asena.addCommand({pattern: 'marvel ?(.*)', fromMe: wk, dontAddCommandList: true}
         bottomText = split[1];
     } else {
         topText = match[1];
-        bottomText = 'ㅤ';
+        bottomText = '銋�';
     }
     thiccysapi.textpro("https://textpro.me/create-logo-style-marvel-studios-online-971.html",
         [`${topText}`, `${bottomText}`]
@@ -392,7 +392,7 @@ Asena.addCommand({pattern: 'marvel ?(.*)', fromMe: wk, dontAddCommandList: true}
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/marvel.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/marvel.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/marvel.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -407,7 +407,7 @@ Asena.addCommand({pattern: '2marvel ?(.*)', fromMe: wk, dontAddCommandList: true
         bottomText = split[1];
     } else {
         topText = match[1];
-        bottomText = 'ㅤ';
+        bottomText = '銋�';
     }
     thiccysapi.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html",
         [`${topText}`, `${bottomText}`]
@@ -420,7 +420,7 @@ Asena.addCommand({pattern: '2marvel ?(.*)', fromMe: wk, dontAddCommandList: true
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/mar2.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/mar2.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/mar2.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -435,7 +435,7 @@ Asena.addCommand({pattern: 'avengers ?(.*)', fromMe: wk, dontAddCommandList: tru
         bottomText = split[1];
     } else {
         topText = match[1];
-        bottomText = 'ㅤ';
+        bottomText = '銋�';
     }
     thiccysapi.textpro("https://textpro.me/create-3d-avengers-logo-online-974.html",
         [`${topText}`, `${bottomText}`]
@@ -448,7 +448,7 @@ Asena.addCommand({pattern: 'avengers ?(.*)', fromMe: wk, dontAddCommandList: tru
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/aven.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/aven.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/aven.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -463,7 +463,7 @@ Asena.addCommand({pattern: 'glitch ?(.*)', fromMe: wk, dontAddCommandList: true}
         bottomText = split[1];
     } else {
         topText = match[1];
-        bottomText = 'ㅤ';
+        bottomText = '銋�';
     }
     thiccysapi.textpro("https://textpro.me/create-glitch-text-effect-style-tik-tok-983.html",
         [`${topText}`, `${bottomText}`]
@@ -476,7 +476,7 @@ Asena.addCommand({pattern: 'glitch ?(.*)', fromMe: wk, dontAddCommandList: true}
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/tt2.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/tt2.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/tt2.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -491,7 +491,7 @@ Asena.addCommand({pattern: 'graf ?(.*)', fromMe: wk, dontAddCommandList: true}, 
         bottomText = split[1];
     } else {
         topText = match[1];
-        bottomText = 'ㅤ';
+        bottomText = '銋�';
     }
     thiccysapi.textpro("https://textpro.me/create-cool-wall-graffiti-text-effect-online-1009.html",
         [`${topText}`, `${bottomText}`]
@@ -504,7 +504,7 @@ Asena.addCommand({pattern: 'graf ?(.*)', fromMe: wk, dontAddCommandList: true}, 
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/ttgra.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/ttgra.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/ttgra.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -519,7 +519,7 @@ Asena.addCommand({pattern: '2graf ?(.*)', fromMe: wk, dontAddCommandList: true},
         bottomText = split[1];
     } else {
         topText = match[1];
-        bottomText = 'ㅤ';
+        bottomText = '銋�';
     }
     thiccysapi.textpro("https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html",
         [`${topText}`, `${bottomText}`]
@@ -532,7 +532,7 @@ Asena.addCommand({pattern: '2graf ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/t2gra.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/t2gra.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/t2gra.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -547,7 +547,7 @@ Asena.addCommand({pattern: 'lion ?(.*)', fromMe: wk, dontAddCommandList: true}, 
         bottomText = split[1];
     } else {
         topText = match[1];
-        bottomText = 'ㅤ';
+        bottomText = '銋�';
     }
     thiccysapi.textpro("https://textpro.me/create-lion-logo-mascot-online-938.html",
         [`${topText}`, `${bottomText}`]
@@ -560,7 +560,7 @@ Asena.addCommand({pattern: 'lion ?(.*)', fromMe: wk, dontAddCommandList: true}, 
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/lion.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/lion.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/lion.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -579,7 +579,7 @@ Asena.addCommand({pattern: '3neon ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/neon3.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/neon3.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/neon3.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -598,7 +598,7 @@ Asena.addCommand({pattern: 'ice ?(.*)', fromMe: wk, dontAddCommandList: true}, (
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/ice.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/ice.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/ice.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -613,7 +613,7 @@ Asena.addCommand({pattern: 'space ?(.*)', fromMe: wk, dontAddCommandList: true},
         bottomText = split[1];
     } else {
         topText = match[1];
-        bottomText = 'ㅤ';
+        bottomText = '銋�';
     }
     thiccysapi.textpro("https://textpro.me/create-space-3d-text-effect-online-985.html",
         [`${topText}`, `${bottomText}`]
@@ -626,7 +626,7 @@ Asena.addCommand({pattern: 'space ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/space.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/space.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/space.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -645,7 +645,7 @@ Asena.addCommand({pattern: 'smoke ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/smoke.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/smoke.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/smoke.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -660,7 +660,7 @@ Asena.addCommand({pattern: 'glow ?(.*)', fromMe: wk, dontAddCommandList: true}, 
     };
     var uri = encodeURI(match[1])
     await download(`https://api.xteam.xyz/photooxy/neonlight?text=${uri}&APIKEY=da5fb2b73ae3e451`, '/root/WhatsAsenaDuplicated/glowttp.jpg', async() => {                          
-        await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/glowttp.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+        await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/glowttp.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
     })
 }));
 Asena.addCommand({pattern: 'fire ?(.*)', fromMe: wk, dontAddCommandList: true}, (async (message, match) => {
@@ -675,7 +675,7 @@ Asena.addCommand({pattern: 'fire ?(.*)', fromMe: wk, dontAddCommandList: true}, 
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/tfire.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/tfire.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/tfire.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -694,7 +694,7 @@ Asena.addCommand({pattern: 'harry ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/hp.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/hp.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/hp.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -713,7 +713,7 @@ Asena.addCommand({pattern: '4neon ?(.*)', fromMe: wk, dontAddCommandList: true},
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/t4n.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/t4n.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/t4n.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -732,7 +732,7 @@ Asena.addCommand({pattern: 'cemetery ?(.*)', fromMe: wk, dontAddCommandList: tru
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/cmth.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/cmth.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/cmth.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
@@ -751,7 +751,7 @@ Asena.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (
               };
 
               await download(`${data}`, '/root/WhatsAsenaDuplicated/cup.jpg', async() => {                          
-                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/cup.jpg'), MessageType.image, { caption: '```Made by Jimbrootan 🍃```' })
+                  await message.client.sendMessage(message.jid,fs.readFileSync('/root/WhatsAsenaDuplicated/cup.jpg'), MessageType.image, { caption: '```Made by Hashir```' })
               })
           } catch(err) { 
               console.log(err)
